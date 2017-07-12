@@ -11,6 +11,8 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-* Data Structure
-* Computational Theory
-* Medical Image Processing
+* CS 6410: Medical Image Analysis
+* CS 6900: Advanced Image Analysis (through Deep Learning)
+* CS 6900: Geometric Computing
+* CS 3610/5610N: Data Structures
+* CS  4060/4060: Computation Theory 

@@ -10,7 +10,7 @@ image:
   credit: Ohio University
 ---
 
-Dr. Jundong Liu is currently an Associate Professor of the School of Electrical Engineering and Computer Science, and the director of the Medical Image Analysis (MedIA) Lab at Ohio University. His research has been supported by the University of Kentucky (through subcontracts) and Ohio University Research Priorities Program (BMIT group). He received his M.S. degree in computer science from Peking University, and his Ph.D. degree in computer information science and engineering from the University of Florida. His current research interests include: bio-medical image acquisition and analysis, machine learning, computer vision, shape modeling and classification, information retrieval, discrete geometry and computer graphics.
+Our lab focuses on biomedical image computing, computer vision and machine learning related research, especially through deep learning approaches. The ongoing projects include patient classification through neuroimages (MRI, fMRI, CT and PET), anatomical segmentation and registration, brain connectivity analysis, motion analysis and tracking, shape modeling and distance metric learning. We have particularly strong interests in developing novel feature extraction, machine learning and deep learning solutions to improve the understanding and diagnoses of various neurological diseases, including Alzheimer's Disease, Autism, stroke and Parkinson's Disease. 
 
 
 
@@ -19,9 +19,9 @@ Dr. Jundong Liu is currently an Associate Professor of the School of Electrical 
 
 ## MedIA Lab is all about:
 
-* Deep learning
-* Machine learning
-* Computer vision
-* Medical Image Processing
+* Media Image Computing (MIC)
+* Machine Learning and Deep Learning
+* Shape Modeling
+* Computer Vision
 
 <a markdown="0" href="{{ site.url }}/articles" class="btn">Research Details</a>
