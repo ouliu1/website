@@ -2,15 +2,15 @@ title:            OHIO MedIA Lab
 tagline:          Life without Pants!
 description:      An awesome Jekyll theme by Engineer Hossain Mohd Faysal featuring a slide out drawer navigation for mobile browsers.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://v2.theevilgenius.tk
+url:              http://media.cs.ohio.edu
 
 # Owner/author information
 owner:
   name:           Jundong Liu
   avatar:         bio-photo.jpg
   bio:            "Associate Professor
-Biomedical Engineering, Electrical Engineering and Computer Science, Center for Scientific Computing and Immersive Technologies"
-  email:          liu1@ohio.edu
+Biomedical Engineering, Electrical Engineering and Computer Science"
+  email:          liuj1@ohio.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
   twitter:        
@@ -38,10 +38,26 @@ links:
     url: /
   - title: Research and Publications
     url: /research/
-  - title: Team
+  - title: People
     url: /team/
   - title: Teaching
     url: /teach/
+
+members:
+  - name: Yani Chen
+    url: http://www.ohio.edu
+    bio: Segmentation
+  - name: Yani Chen
+    url: http://www.ohio.edu
+    bio: Segmentation
+
+alumna:
+  - name: Yani Chen
+    url: http://www.ohio.edu
+    bio: Segmentation
+  - name: Yani Chen
+    url: http://www.ohio.edu
+    bio: Segmentation
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
