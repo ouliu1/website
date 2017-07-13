@@ -46,11 +46,14 @@ links:
 members:
   - name: Yani Chen
     avatar: bio-photo.jpg
+    email: yani@ohio.edu
     bio: Phd Student, Segmentation, Hippocampus, Medical Image Processing, MRI, fMRI, Deep Learning
   - name: Tao Sun
-    avatar: bio-photo.jpg
-    url: https://tao-sun.github.io/
-    bio: Phd Student, Segmentation
+    avatar: taosun.png
+    url: https://tao-sun.github.io
+    email: ts202115@ohio.edu
+    bio: "Phd Student, 
+    research interests: Segmentation, Scene Understanding, Optical Flow, Multimodal Learning"
 
 alumna:
   - name: Bibo Shi

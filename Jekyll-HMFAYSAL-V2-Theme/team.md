@@ -14,7 +14,12 @@ tags: [blog, graphic design]
   {% for member in site.members %}
 <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
       <h5><img src="{{ site.url }}/images/{{ member.avatar }}" class="team-photo" alt="{{ site.owner.name }} bio photo"></h5>
-      <h2 itemprop="headline">{% if member.url %}<a href="{{ member.url }}" rel="bookmark" target="_blank">{% endif %}{{ member.name }}{% if member.url %}</a>{% endif %}</h2>
+      <p>
+      {% if member.url %}<h2><a href="{{ member.url }}" rel="bookmark" target="_blank">{% endif %}{{ member.name }}{% if member.url %}</a>{% endif %}
+      {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="icon-mail"></i></a>{% endif %}{% if member.url %}</h2>{% endif %}
+      </p>
+
+
       <p itemprop="text">{{ member.bio }}</p>
 </article>
   {% endfor %}
@@ -24,7 +29,10 @@ tags: [blog, graphic design]
 
   {% for member in site.alumna %} 
 <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-      <h2 itemprop="headline">{% if member.url %}<a href="{{ member.url }}" rel="bookmark" target="_blank">{% endif %}{{ member.name }}{% if member.url %}</a>{% endif %}</h2>
+      <p>
+      {% if member.url %}<h2><a href="{{ member.url }}" rel="bookmark" target="_blank">{% endif %}{{ member.name }}{% if member.url %}</a>{% endif %}
+      {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="icon-mail"></i></a>{% endif %}{% if member.url %}</h2>{% endif %}
+      </p>
       <p itemprop="text">{{ member.bio }}</p>
 </article>
   {% endfor %}
