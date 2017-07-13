@@ -13,7 +13,7 @@ tags: [blog, graphic design]
 
   {% for member in site.members %}
 <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-      {% if member.avatar %}<h5><img src="{{ site.url }}/images/{{ member.avatar }}" class="team-photo" alt="{{ site.owner.name }} bio photo"></h5>{% endif %}
+      {% if member.avatar %}<h5><img src="{{ site.url }}/images/{{ member.avatar }}" class="team-photo" alt="{{ member.name }} bio photo"></h5>{% endif %}
       {% if member.url %}
         <h2><a href="{{ member.url }}" rel="bookmark" target="_blank">{{ member.name }}</a>
         {% if member.email %}
@@ -36,6 +36,7 @@ tags: [blog, graphic design]
 
   {% for member in site.alumna %} 
 <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+      {% if member.avatar %}<h5><img src="{{ site.url }}/images/{{ member.avatar }}" class="alumni-photo" alt="{{ member.name }} bio photo"></h5>{% endif %}
       {% if member.url %}
         <h2><a href="{{ member.url }}" rel="bookmark" target="_blank">{{ member.name }}</a>
         {% if member.email %}

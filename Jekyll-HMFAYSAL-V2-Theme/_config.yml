@@ -44,22 +44,47 @@ links:
     url: /teach/
 
 members:
+  - name: Pin Zhang
+    email: pz335412@ohio.edu
+    avatar: pin.png
+    bio: "Phd Student, research interests: Metric Learning, SVM"
   - name: Yani Chen
-    email: yani@ohio.edu
-    bio: Phd Student, Segmentation, Hippocampus, Medical Image Processing, MRI, fMRI, Deep Learning
+    email: yanic0330@gmail.com
+    avatar: yani.png
+    bio: "Phd Student, research interests: Segmentation, Hippocampus, Medical Image Processing, MRI, fMRI, Deep Learning"
+  - name: Zhewei Wang
+    avatar: zhewei.png
+    email: Wang, Zhewei [:zw340113@ohio.edu];
+    bio: "Phd Student, research interests: Segmentation, RNN"
   - name: Tao Sun
-    avatar: taosun.png
+    avatar: tao.png
     url: https://tao-sun.github.io
     email: ts202115@ohio.edu
-    bio: "Phd Student, 
-    research interests: Segmentation, Scene Understanding, Optical Flow, Multimodal Learning"
+    bio: "Phd Student, research interests: Segmentation, Scene Understanding, Optical Flow, Multimodal Learning"
+  - name: Kevin H. Hobbs
+    avatar: kevin.png
+    bio: "Master Student"
+  - name: Nidal Abuhajar
+    avatar: nidal.png
+    email: na849215@ohio.edu
+    bio: "Master Student"
+  - name: Yiran Liu
+    avatar: yiran.png
+    email: yl051516@ohio.edu
+    bio: "Master Student"
+  - name: Binhua Liu
+    bio: "Visiting Scholar"
 
 alumna:
-  - name: Pin Zhang
-    bio: Toshiba Empolyee, Supervised Learning
   - name: Bibo Shi
+    avatar: bibo.jpg
     url: http://oucsace.cs.ohiou.edu/~bshi/
-    bio: Postdoc in Duke University, Metric Learning, SVM
+    bio: "Postdoc in Duke University, research interests: Metric Learning, SVM"
+  - name: Huihui Xu
+    avatar: huihui.jpg
+    bio: "Research interests: Spectral Graph"
+  - name: David Days
+  - name: Xin Qian
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
