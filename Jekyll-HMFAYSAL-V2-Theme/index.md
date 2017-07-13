@@ -24,4 +24,4 @@ Our lab focuses on biomedical image computing, computer vision and machine learn
 * Shape Modeling
 * Computer Vision
 
-<a markdown="0" href="{{ site.url }}/articles" class="btn">Research Details</a>
+<a markdown="0" href="{{ site.url }}/research" class="btn">Research Details</a>
