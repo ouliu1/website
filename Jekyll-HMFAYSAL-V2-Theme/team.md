@@ -11,10 +11,10 @@ tags: [blog, graphic design]
 <h3>Current Members</h3>
 
 
-  {% for member in site.members %} 
+  {% for member in site.members %}
 <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-      <h5><img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo"></h5>
-      <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ member.name }}</a></h2>
+      <h5><img src="{{ site.url }}/images/{{ member.avatar }}" class="team-photo" alt="{{ site.owner.name }} bio photo"></h5>
+      <h2 itemprop="headline">{% if member.url %}<a href="{{ member.url }}" rel="bookmark" target="_blank">{% endif %}{{ member.name }}{% if member.url %}</a>{% endif %}</h2>
       <p itemprop="text">{{ member.bio }}</p>
 </article>
   {% endfor %}
@@ -24,7 +24,7 @@ tags: [blog, graphic design]
 
   {% for member in site.alumna %} 
 <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-      <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ member.name }}</a></h2>
+      <h2 itemprop="headline">{% if member.url %}<a href="{{ member.url }}" rel="bookmark" target="_blank">{% endif %}{{ member.name }}{% if member.url %}</a>{% endif %}</h2>
       <p itemprop="text">{{ member.bio }}</p>
 </article>
   {% endfor %}

@@ -45,19 +45,19 @@ links:
 
 members:
   - name: Yani Chen
-    url: http://www.ohio.edu
-    bio: Segmentation
-  - name: Yani Chen
-    url: http://www.ohio.edu
-    bio: Segmentation
+    avatar: bio-photo.jpg
+    bio: Phd Student, Segmentation, Hippocampus, Medical Image Processing, MRI, fMRI, Deep Learning
+  - name: Tao Sun
+    avatar: bio-photo.jpg
+    url: https://tao-sun.github.io/
+    bio: Phd Student, Segmentation
 
 alumna:
-  - name: Yani Chen
-    url: http://www.ohio.edu
-    bio: Segmentation
-  - name: Yani Chen
-    url: http://www.ohio.edu
-    bio: Segmentation
+  - name: Bibo Shi
+    url: http://oucsace.cs.ohiou.edu/~bshi/
+    bio: Postdoc in Duke University, Metric Learning, SVM
+  - name: Pin Zhang
+    bio: Toshiba Empolyee, Supervised Learning
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
