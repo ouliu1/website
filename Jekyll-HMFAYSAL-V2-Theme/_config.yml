@@ -45,7 +45,6 @@ links:
 
 members:
   - name: Yani Chen
-    avatar: bio-photo.jpg
     email: yani@ohio.edu
     bio: Phd Student, Segmentation, Hippocampus, Medical Image Processing, MRI, fMRI, Deep Learning
   - name: Tao Sun
@@ -56,11 +55,12 @@ members:
     research interests: Segmentation, Scene Understanding, Optical Flow, Multimodal Learning"
 
 alumna:
+  - name: Pin Zhang
+    bio: Toshiba Empolyee, Supervised Learning
   - name: Bibo Shi
     url: http://oucsace.cs.ohiou.edu/~bshi/
     bio: Postdoc in Duke University, Metric Learning, SVM
-  - name: Pin Zhang
-    bio: Toshiba Empolyee, Supervised Learning
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York

@@ -13,13 +13,20 @@ tags: [blog, graphic design]
 
   {% for member in site.members %}
 <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-      <h5><img src="{{ site.url }}/images/{{ member.avatar }}" class="team-photo" alt="{{ site.owner.name }} bio photo"></h5>
-      <p>
-      {% if member.url %}<h2><a href="{{ member.url }}" rel="bookmark" target="_blank">{% endif %}{{ member.name }}{% if member.url %}</a>{% endif %}
-      {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="icon-mail"></i></a>{% endif %}{% if member.url %}</h2>{% endif %}
-      </p>
-
-
+      {% if member.avatar %}<h5><img src="{{ site.url }}/images/{{ member.avatar }}" class="team-photo" alt="{{ site.owner.name }} bio photo"></h5>{% endif %}
+      {% if member.url %}
+        <h2><a href="{{ member.url }}" rel="bookmark" target="_blank">{{ member.name }}</a>
+        {% if member.email %}
+          <a href="mailto:{{ member.email }}" target="_blank"><i class="icon-mail"></i></a>
+        {% endif %}
+        </h2>
+      {% else %}
+        <p itemprop="text">{{ member.name }}
+        {% if member.email %}
+          <a href="mailto:{{ member.email }}" target="_blank"><i class="icon-mail"></i></a>
+        {% endif %}
+        </p>
+      {% endif %}
       <p itemprop="text">{{ member.bio }}</p>
 </article>
   {% endfor %}
@@ -29,10 +36,19 @@ tags: [blog, graphic design]
 
   {% for member in site.alumna %} 
 <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-      <p>
-      {% if member.url %}<h2><a href="{{ member.url }}" rel="bookmark" target="_blank">{% endif %}{{ member.name }}{% if member.url %}</a>{% endif %}
-      {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="icon-mail"></i></a>{% endif %}{% if member.url %}</h2>{% endif %}
-      </p>
+      {% if member.url %}
+        <h2><a href="{{ member.url }}" rel="bookmark" target="_blank">{{ member.name }}</a>
+        {% if member.email %}
+          <a href="mailto:{{ member.email }}" target="_blank"><i class="icon-mail"></i></a>
+        {% endif %}
+        </h2>
+      {% else %}
+        <p itemprop="text">{{ member.name }}
+        {% if member.email %}
+          <a href="mailto:{{ member.email }}" target="_blank"><i class="icon-mail"></i></a>
+        {% endif %}
+        </p>
+      {% endif %}
       <p itemprop="text">{{ member.bio }}</p>
 </article>
   {% endfor %}
