@@ -6,7 +6,7 @@ tagline: HMFAYSAL V2, a Jekyll Theme
 tags: [index, Jekyll, theme, responsive]
 modified: 9-9-2013
 image:
-  feature: OU.jpg
+  feature: ou.jpg
   credit: Ohio University
 ---
 
