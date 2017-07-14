@@ -10,6 +10,9 @@ tags: [blog, graphic design]
    
 <h3>Current Members</h3>
 
+<article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="article-author">
+{% include _author-bio.html %}
+</article>
 
   {% for member in site.members %}
 <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
