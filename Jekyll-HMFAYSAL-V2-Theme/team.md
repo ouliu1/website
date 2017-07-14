@@ -31,7 +31,7 @@ tags: [blog, graphic design]
 </article>
   {% endfor %}
 
-<h3>Alumna</h3>
+<h3>Alumni</h3>
 
 
   {% for member in site.alumna %} 
